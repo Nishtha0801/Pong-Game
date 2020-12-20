@@ -1,0 +1,61 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+body{
+    height : 100vh;
+    /*background-color: black;*/
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    height : 88vh;
+    width : 80vw;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+   border-radius: 10px;
+}
+.ball{
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    background-color: #b12a5b;
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+}
+.paddle{
+    height: 105px;
+    width: 12px;
+    background-color: #b12a5b;
+    position: fixed;
+    border-radius: 4px;
+    position: fixed;
+}
+.left{
+    top: 40vh;
+    left: 11vw;
+}
+.right{
+    top: 40vh;
+    right: 11vw;
+}
+.fa-circle{
+    color:#f99185;
+    font-size : 32px;
+}
+.scorecard{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 1 1;
+}
+.separator{
+    width: 4px;
+    height: 70%;
+    background-color: #ffecd2;
+}
